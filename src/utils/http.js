@@ -40,7 +40,10 @@ function getTokenCookie(c) {
 }
 
 function genUrl(url) {
-  return process.env.API_ROOT + url
+  if (process.env.NODE_ENV == 'development') {
+    return process.env.API_ROOT + url
+  }
+  return url
 }
 
 export default {
