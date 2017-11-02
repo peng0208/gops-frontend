@@ -1,4 +1,4 @@
-传送门： gops https://github.com/pengg0208/gops
+传送门： gops https://github.com/pompeng/gops
 
 # gops-frontend
 > A Vue.js project
